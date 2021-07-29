@@ -1,4 +1,4 @@
-class Gun(object):
+class Gun():
     def __init__(self):
         self.reload()
 
@@ -10,7 +10,7 @@ class Gun(object):
 
 
 
-class Transformer(object):
+class Transformer():
     step = 1
     def __init__(self,x,Left_gun, Right_gun):
         self.Left_gun = Left_gun
@@ -60,12 +60,12 @@ class Deseptikon(Transformer):
     def enemys(self):
         return "автоботы"
 
-
-
+#Hello
+#Hello
 gun1 = Gun()
 gun2 = Gun()
 Oleg = Autobot(0,gun1,gun2)
-for i in range(12):
+for i in range(100):
     Patron = Oleg.fire()
     print("Олег на {0}, {2}"
           "у него {1} патрон в пушках\n"
