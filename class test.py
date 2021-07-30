@@ -61,7 +61,7 @@ class Deseptikon(Transformer):
         return "автоботы"
 
 
-
+#opachki
 gun1 = Gun()
 gun2 = Gun()
 Oleg = Autobot(0,gun1,gun2)
