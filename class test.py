@@ -59,7 +59,7 @@ class Deseptikon(Transformer):
 
     def enemys(self):
         return "автоботы"
-
+#Hello
 #Hello
 #Hello
 gun1 = Gun()
